@@ -64,7 +64,7 @@ header .overlay {
 }
 
 .navbar-custom {
-    background-color: rgba(17, 17, 17, 0.5);
+    background-color: rgba(110, 59, 59, 0.5);
     -webkit-transition: opacity 400ms ease-out;
     transition: opacity 400ms ease-out;
     padding: 0 !important;
@@ -78,13 +78,13 @@ header .overlay {
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
 }
 
 /* change the color of active or hovered links */
 .navbar-custom .nav-link.active,
 .navbar-custom .nav-link:hover {
-    color: #d67b8e !important;
+    color: #595596 !important;
 }
 
 nav {
@@ -92,18 +92,18 @@ nav {
 }
 
 .fixed-top.scrolled {
-    background: black;
+    background: rgb(12, 2, 2);
 }
 
 .profile h1 {
     font-size: 45px;
     font-weight: 400;
-    color: white;
+    color: rgb(136, 124, 124);
 }
 
 .profile .subheading {
     font-size: 25px;
-    color: #FFF;
+    color: #fadddd;
 }
 
 .circular {
@@ -141,7 +141,7 @@ nav {
 }
 
 .down-arrow:hover svg path {
-    fill: #d67b8e;
+    fill: #474b88;
     -webkit-transition: fill 800ms;
     transition: fill 800ms;
 }
